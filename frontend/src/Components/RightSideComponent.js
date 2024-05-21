@@ -43,7 +43,7 @@ const RightSideComponent = () => {
           <h1>BhaskarAd.com</h1>
         </div>
       </div>
-      <div className="text-gray-500 my-2">
+      <div className="text-gray-500 my-2 text-xs">
         <p>Copyright © 2023-24 DB Corp ltd., All Rights Reserved</p>
       </div>
     </div>

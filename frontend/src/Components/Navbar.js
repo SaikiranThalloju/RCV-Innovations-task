@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between my-2 top-0 sticky z-50 bg-white'>
     <div className='mx-10' >
-          <img style={{width : "130px",  height : "50px"}}  src = "https://th.bing.com/th?id=OIP.2gyOhQFo8LtJOxTz4RAnyAHaC5&w=350&h=137&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt = "image"/>
+          <img style={{width : "130px",  height : "50px"}}  src = "https://th.bing.com/th?id=OIP.2gyOhQFo8LtJOxTz4RAnyAHaC5&w=350&h=137&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2" alt = "navbar"/>
     </div>
     <div className='flex items-center justify-center'>
           <div className='flex mx-6 text-lg font-semibold hover:cursor-pointer'>

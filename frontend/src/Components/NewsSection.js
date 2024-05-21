@@ -36,7 +36,7 @@
 //           {/* {articles[0].image && ( */}
 //           <img
 //             src="https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/imagegallery/29_02_2020_16_56_48_7796591.jpg?width=920&format=jpeg"
-//             alt="title"
+//             ="title"
 //           />
 
 //           <div className="flex items-center justify-end">
@@ -54,7 +54,7 @@
 //           </p>
 //           <img className="w-[30%] mr-3"
 //             src="https://images.indianexpress.com/2024/05/VIRAT-KOHLI-ORANGE-CAP-PTI-CROP-1.jpg"
-//             alt="virat"
+//             ="virat"
 //           />
 //         </div>
 //         <div className="flex items-center justify-end">
@@ -113,7 +113,7 @@
 //         {articles[0].image && (
 //           <img
 //             src={articles[0].image}
-//             alt={articles[0].title}
+//             ={articles[0].title}
 //             className="w-full h-full"
 //           />
 //         )}
@@ -150,7 +150,7 @@
 //             {article.image && (
 //               <img
 //                 src={article.image}
-//                 alt={article.title}
+//                 ={article.title}
 //                 className="w-[30%] mr-3"
 //               />
 //             )}
@@ -209,7 +209,7 @@
 //         {articles[0].image && (
 //           <img
 //             src={articles[0].image}
-//             alt={articles[0].title}
+//             ={articles[0].title}
 //             className="w-full h-full"
 //           />
 //         )}
@@ -244,7 +244,7 @@
 //             {article.image && (
 //               <img
 //                 src={article.image}
-//                 alt={article.title}
+//                 ={article.title}
 //                 className="w-[30%] mr-3 max-h-96"
 //               />
 //             )}
@@ -313,7 +313,7 @@ const NewsSection = () => {
         {articles[0].image && (
           <img
             src={articles[0].image}
-            alt={articles[0].title}
+            alt = {articles[0].title}
             className="w-full h-full"
           />
         )}
