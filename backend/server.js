@@ -7,13 +7,13 @@ const cors = require("cors");
 const fs = require("fs");
 const dotenv = require("dotenv");
 
-// Load environment variables from .env file
+
 dotenv.config();
 
 app.use(cors());
 app.use(express.static(path.join(__dirname, "client/build")));
 
-// Use the MongoDB URI from the environment variables
+
 const uri = process.env.MONGODB_URI;
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
