@@ -25,125 +25,125 @@ import { GiLightBulb } from "react-icons/gi";
 
 const RightSideBar = () => {
   return (
-    <div className='w-[30%] my-3 h-screen  overflow-y-scroll   scrollbar-hide'>
+    <div className='w-[25%] my-3 h-screen  overflow-y-scroll   scrollbar-hide'>
            
-           <div className='w-[80%] mx-8 '>
+           <div className='w-[80%] mx-8  font-semibold '>
                    <div className='flex justify-start items-center  bg-gray-100 p-2 rounded-md ml-3'>
                       <BsFire size= "40px" className='text-orange-400 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Top News</h1>
+                      <h1 size = "40px" >Top News</h1>
                    </div>
 
                    <div className='flex justify-start items-center  p-2 rounded-md ml-3 hover:bg-gray-100'>
                       <FaLocationDot size= "40px" className='text-orange-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>State-city</h1>
+                      <h1 size = "40px" >State-city</h1>
                    </div>
 
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <TbHandFinger size= "40px" className='text-orange-200 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Lok Sabha Elections</h1>
+                      <h1 size = "40px" >Lok Sabha Elections</h1>
                    </div>
    
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <MdSportsCricket size= "40px" className='text-blue-700 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>IPL-2024</h1>
+                      <h1 size = "40px" >IPL-2024</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <FaStar size= "40px" className='text-orange-400 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Bhaskar-Khass</h1>
+                      <h1 size = "40px" >Bhaskar-Khass</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <FaSun size= "40px" className='text-yellow-500 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>DB Original</h1>
+                      <h1 size = "40px" >DB Original</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <FcClapperboard  size= "40px" className='text-purple-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Bollywood</h1>
+                      <h1 size = "40px" >Bollywood</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <SiStylelint  size= "40px" className='text-purple-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>LifeStyle</h1>
+                      <h1 size = "40px" >LifeStyle</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       < RiGraduationCapFill size= "40px" className='text-gray-500 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Job-Education</h1>
+                      <h1 size = "40px" >Job-Education</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <IoWoman size= "40px" className='text-pink-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Woman</h1>
+                      <h1 size = "40px">Woman</h1>
                    </div>
                      
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiIndiaGate size= "40px" className='text-orange-300 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>National</h1>
+                      <h1 size = "40px" >National</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiWorld size= "40px" className='text-blue-500 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>International</h1>
+                      <h1 size = "40px" >International</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <RiMoneyRupeeCircleFill size= "40px" className='text-green-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Business</h1>
+                      <h1 size = "40px" >Business</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiStarSattelites size= "40px" className='text-orange-800 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Zodiac</h1>
+                      <h1 size = "40px" >Zodiac</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <FaMobileAlt size= "40px" className='text-blue-300 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Tech-Auto</h1>
+                      <h1 size = "40px" >Tech-Auto</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <IoBookSharp size= "40px" className='text-orange-700 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Life Quotes</h1>
+                      <h1 size = "40px" >Life Quotes</h1>
                    </div>
                    
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <MdOutlineSportsMartialArts size= "40px" className='text-blue-700 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Sports</h1>
+                      <h1 size = "40px" >Sports</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <AiOutlineStop size= "40px" className='text-red-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Fake News Expose</h1>
+                      <h1 size = "40px" >Fake News Expose</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <SiGooglehangouts size= "40px" className='text-blue-900 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Opinion</h1>
+                      <h1 size = "40px" >Opinion</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <FaCircle size= "40px" className='text-pink-900 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Beautiful</h1>
+                      <h1 size = "40px" >Beautiful</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiPapers size= "40px" className='text-gray-600 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Magazine</h1>
+                      <h1 size = "40px" >Magazine</h1>
                    </div>
 
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiDna2 size= "40px" className='text-blue-700 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Life-Science</h1>
+                      <h1 size = "40px" >Life-Science</h1>
                    </div>
 
                    <div className='flex justify-start items-center p-2 rounded-md ml-3  hover:bg-gray-100 '>
                       <GiLightBulb size= "40px" className='text-yellow-300 pr-4'/>
-                      <h1 size = "40px" className='font-bold'>Utility</h1>
+                      <h1 size = "40px" >Utility</h1>
                    </div>
            </div>
     </div>
